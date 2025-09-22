@@ -9,7 +9,7 @@ import { UploadCloudIcon } from './icons';
 import { Compare } from './ui/compare';
 import { generateModelImage } from '../services/geminiService';
 import Spinner from './Spinner';
-import { getFriendlyErrorMessage } from '../lib/utils';
+import { getFriendlyErrorMessage } from '@/lib/utils';
 
 interface StartScreenProps {
   onModelFinalized: (modelUrl: string) => void;
